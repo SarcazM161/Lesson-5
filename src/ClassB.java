@@ -1,7 +1,9 @@
-public class ClassB {
+public class ClassB extends ClassA {
 
-    private int numberB;
-    private String nameB = "default";
+    public int numberB;
+    public String nameB1 = "default";
+    private String nameB2 = "default";
+    public String nameB3 = "default";
 
     public int getNumberB() {
         return numberB;
@@ -10,10 +12,10 @@ public class ClassB {
         this.numberB = number;
     }
     public void setNameB(String name) {
-        this.nameB = name;
+        this.nameB1 = name;
     }
     private void printDataB(){
-        System.out.println(numberB + nameB);
+        System.out.println(numberB + nameB1);
     }
 
     private void medtodB1(){}

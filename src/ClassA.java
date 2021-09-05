@@ -1,43 +1,71 @@
 
-public class ClassA {
+public class ClassA  {
 
-    private int numberA;
-    private String nameA = "default";
+    public int numberA;
+
+    public String nameA1 = "nameA1";
+
+    public String nameA2 = "nameA2";
+
+    public String nameA3 = "nameA3";
+
+    public String nameA4 = "nameA4";
+
+
 
     public int getNumberA() {
         return numberA;
     }
+
+    public String getNameA1() {
+        return nameA1;
+    }
+
+    public String getNameA2() {
+        return nameA2;
+    }
+
+    public String getNameA3() {
+        return nameA3;
+    }
+
+    public String getNameA4() {
+        return nameA4;
+    }
+
     public void setNumberA(int number) {
         this.numberA = number;
     }
+
     public void setNameA(String name) {
-        this.nameA = name;
-    }
-    public void printDataA(){
-        System.out.println(numberA + nameA);
+        this.nameA1 = name;
     }
 
-    private void medtodA1(){
+    public void printDataA(){
+        System.out.println(numberA + nameA1);
+    }
+
+    public void medtodA1(){
         System.out.println("medtodA1");
 
     }
 
-    private void medtodA2(){
+    public void medtodA2(){
         System.out.println("medtodA2");
 
     }
 
-    private void medtodA3(){
+    public void medtodA3(){
         System.out.println("medtodA3");
 
     }
 
-    private void medtodA4(){
+    public void medtodA4(){
         System.out.println("medtodA4");
 
     }
 
-    private void medtodA5(){
+    public void medtodA5(){
         System.out.println("medtodA5");
 
     }
